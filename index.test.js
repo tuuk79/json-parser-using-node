@@ -34,8 +34,8 @@ describe('isValid', () => {
 
 	it('should return 2 if json has 2 properties', () => {
 		const input = {
-			name: 'steve',
-			age: 45
+			name: 'somename',
+			age: 30
 		};
 		expect(countProperties(input)).toBe(2)
 	})
