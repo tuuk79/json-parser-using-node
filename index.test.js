@@ -24,6 +24,10 @@ describe('isValid', () => {
 		expect(isValid(input)).toBe(false)
 	})
 
+});
+
+describe('countProperties', () => {
+
 	it('should return 1 if json has 1 property', () => {
 		const json = {
 			name: 'steve'
