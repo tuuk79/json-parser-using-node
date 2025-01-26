@@ -43,10 +43,10 @@ describe('isValid', () => {
 	it('should return 4 if json has 4 properties', () => {
 		const input = {
 			name: {
-				first: 'steve',
-				last: 'yoo'
+				first: 'jimmy',
+				last: 'carter'
 			},
-			age: 45
+			age: 100
 		};
 		expect(countProperties(input)).toBe(4)
 	})
@@ -54,8 +54,8 @@ describe('isValid', () => {
 	it('should return 7 if json has 7 properties', () => {
 		const input = {
 			name: {
-				first: 'steve',
-				last: 'yoo'
+				first: 'first',
+				last: 'last'
 			},
 			location: {
 				street: 'some street',
