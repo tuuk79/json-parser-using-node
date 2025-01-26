@@ -70,3 +70,9 @@ describe('countProperties', () => {
 		expect(countProperties(input)).toBe(7)
 	})
 })
+
+describe('listProperties', () => {
+	it('should list properties of a given json', () => {
+		// todo
+	})
+})
